@@ -1,4 +1,6 @@
-function zipList(list1, list2) {
+
+
+function zipListTheHardWay(list1, list2) {
   const returnedList = [];
   let i = 0;
   let j = 0;
@@ -14,7 +16,7 @@ function zipList(list1, list2) {
   return returnedList;
 }
 
-console.log(zipList([1, 2, 3], ['a', 'b', 'c']));
+console.log(zipListTheHardWay([1, 2, 3], ['a', 'b', 'c']));
 
 
 function zipListTheEasyWay(list1, list2) {
